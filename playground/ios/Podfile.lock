@@ -1,0 +1,49 @@
+PODS:
+  - ATSDK-Weex (0.0.1)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - ShreejiPluginTest (0.0.1):
+    - WeexPluginLoader
+    - WeexSDK
+  - SocketRocket (0.4.2)
+  - WeexPluginLoader (0.0.1.9.1):
+    - WeexSDK
+  - WeexSDK (0.26.0)
+  - WXDevtool (0.9.5):
+    - WeexSDK
+
+DEPENDENCIES:
+  - ATSDK-Weex (= 0.0.1)
+  - SDWebImage (= 3.7.5)
+  - ShreejiPluginTest (from `../../`)
+  - SocketRocket (= 0.4.2)
+  - WeexPluginLoader
+  - WeexSDK
+  - WXDevtool (= 0.9.5)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ATSDK-Weex
+    - SDWebImage
+    - SocketRocket
+    - WeexPluginLoader
+    - WeexSDK
+    - WXDevtool
+
+EXTERNAL SOURCES:
+  ShreejiPluginTest:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  ATSDK-Weex: 1b27558f4336d77fb97704d34fc6ad1fd468592c
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  ShreejiPluginTest: ab44fa984a31c64d9476413db45bbe8723a48220
+  SocketRocket: ffe08119b00ef982f6c37052a4705a057c8494ad
+  WeexPluginLoader: 85c1304f8ba29864e58531614a0acfeceef1b85c
+  WeexSDK: 55b67d1c411eb28ec1e356f763a335d0ddcc5324
+  WXDevtool: 5135a5c6f4426fb635babb9eacfa14352bc66dc6
+
+PODFILE CHECKSUM: bcd3614b87e2e8ecb494284f06ee1dee50938fc6
+
+COCOAPODS: 1.9.3
